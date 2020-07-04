@@ -9,5 +9,13 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        testingBranchCreated();
+    }
+
+    /**
+     * method created just for branch testing and removing from commit
+     */
+    private void testingBranchCreated() {
+
     }
 }
